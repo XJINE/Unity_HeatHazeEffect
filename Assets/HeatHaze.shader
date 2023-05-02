@@ -12,7 +12,7 @@ Shader "Unlit/HeatHaze"
         {
             // NOTE:
             // This effect must be placed at the end of the RenderQueue.
-            "Queue" = "Transparent"
+            "Queue" = "Transparent+1"
         }
 
         ZTest Always
